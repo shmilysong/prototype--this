@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.clearfix:after{ display:block; content:''; clear:both;}
+.clearfix{ zoom:1;}
+#abc{
+    width:800px;
+    height:400px; 
+    margin:100px auto; 
+}
+#abc div.sliderBox{
+    width:100%;
+    height:100%;
+    position:relative; 
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+#abc div.bigPic{
+    position:relative; 
+    top:0;
+    left:0;
+    height:75%;
+}
+#abc div.bigPic div.imgBox{
+    float:left; 
+    width:800px; 
+    height:100%;
+    position:relative;
+}
+#abc div.bigPic div.imgBox img{
+    width:100%;
+    height:100%;
+}
+#abc div.bigPic div.imgBox div{
+    width:100%;
+    height:25%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:#fff;
+    background:rgba(0,0,0,0.3);
+}
+#abc div.smallPic{
+    height:25%;
+    padding:0 30px;
+    position:relative;
+
+}
+#abc div.smallPic span{
+    font-size:30px;
+    text-align:center;
+    line-height:300%;
+    width:30px;
+    height:100%;
+    float:left;
+    position:absolute;
+    top:0;
+     background:rgba(0,0,0,0.1);
+}
+#abc div.smallPic span.leftBtn{
+    left:0;
+   
+}
+#abc div.smallPic span.rightBtn{
+    right:0;
+    
+}
+#abc div.smallPic div.imgBox{
+    float:left; 
+    height:100%;
+    position:relative;
+
+}
+#abc div.smallPic div.on{
+    
+}
+#abc div.smallPic div.imgBox div{
+    width:100%;
+    height:25%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:#fff;
+    background:rgba(0,0,0,0.3);
+}
+#abc div.smallPic div.imgBox img{
+    width:100%;
+    height:100%;
+}

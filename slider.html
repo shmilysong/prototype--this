@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>slider</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="style.css" rel="stylesheet">
+<script src="slider.js"></script>
+<script>
+    window.onload=function(){
+        var slider = new Slider({
+            parent:'#abc',
+            data:[{
+                img:'1.jpg',
+                title:'这是图片一'
+            },{
+                img:'2.jpg',
+                title:'这是图片二'
+            },{
+                img:'3.jpg',
+                title:'这是图片三'
+            },{
+                img:'4.jpg',
+                title:'这是图片四'
+            },{
+                img:'5.jpg',
+                title:'这是图片五'
+            },{
+				img:'6.jpg',
+				title:'这是图片6'
+				},
+			{
+				img:'7.jpg',
+				title:'这是图片7'
+			}],
+            auto:1
+        });
+    };
+</script>
+</head>
+<body>
+    <div id="abc"></div>
+</body>
+</html>
